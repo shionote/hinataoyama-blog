@@ -1,0 +1,3 @@
+$(function(){if(window.matchMedia('(max-width: 768px)').matches){$(function(){$('.entries').removeClass('m_horizontal');});}else{};});$(window).on("resize",function(){const smWindowSize=768;if(window.innerWidth<=smWindowSize){$(".entries").removeClass("m_horizontal");}
+else{$(".entries").addClass("m_horizontal");}});jQuery(window).on('scroll',function($){if(100<jQuery(this).scrollTop()){jQuery('.floating').show();}else{jQuery('.floating').hide();}});jQuery('a[href^="#"]').click(function(){var header=0;var speed=300;var id=jQuery(this).attr('href');var target=jQuery('#'==id?'html':id);var position=jQuery(target).offset().top-header;if(0>position){position=0;}
+jQuery('html, body').animate({scrollTop:position},speed);return false;});

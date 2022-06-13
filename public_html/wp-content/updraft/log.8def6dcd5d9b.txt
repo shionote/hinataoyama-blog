@@ -1,0 +1,504 @@
+0000.000 (0) Opened log file at time: Sat, 26 Mar 2022 05:46:11 +0000 on https://hinataoyama.org
+0000.001 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.22.11 WP: 5.9.2 PHP: 7.4.25 (fpm-fcgi, Linux sv13356.xserver.jp 5.4.0-104-generic #118~18.04.1-Ubuntu SMP Thu Mar 3 13:53:15 UTC 2022 x86_64) MySQL: 10.5.13-MariaDB-log (max packet size=25165824) WPLANG: ja Server: Apache safe_mode: 0 max_execution_time: 900 memory_limit: 1G (used: 18.5M | 20M) multisite: N openssl: OpenSSL 1.0.2k  26 Jan 2017 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.002 (0) Free space on disk containing Updraft's temporary directory: 34165261.3 MB
+0000.003 (0) Tasks: Backup files: 1 (schedule: daily) Backup DB:  (schedule: daily)
+0000.003 (0) Processed schedules. Combining jobs from identical schedules. Tasks now: Backup files: 1 Backup DB: 1
+0000.005 (0) Requesting semaphore lock (fd) (apparently via scheduler: last_scheduled_action_called_at=1648187134, seconds_ago=86437)
+0000.007 (0) Set semaphore last lock (fd) time to 2022-03-26 05:46:11
+0000.007 (0) Semaphore lock (fd) complete
+0000.009 (0) Backup run: resumption=0, nonce=8def6dcd5d9b, file_nonce=8def6dcd5d9b begun at=1648273571 (0s ago), job type=backup
+0000.009 (0) Scheduling a resumption (1) after 300 seconds (1648273871) in case this run gets aborted
+0000.026 (0) Checking if we have a zip executable available
+0000.027 (0) Testing: /usr/bin/zip
+0000.033 (0) Output: zip warning: binziptest/test.zip not found or empty
+0000.034 (0) Output: adding: binziptest/subdir1/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/	(in=0) (out=0) (stored 0%)
+0000.034 (0) Output: adding: binziptest/subdir1/subdir2/test.html	(in=131) (out=107) (deflated 18%)
+0000.035 (0) Output: total bytes=131, compressed=107 -> 18% savings
+0000.040 (0) Output: adding: binziptest/subdir1/subdir2/test2.html	(in=138) (out=113) (deflated 18%)
+0000.041 (0) Output: total bytes=269, compressed=220 -> 18% savings
+0000.051 (0) Working binary zip found: /usr/bin/zip
+0000.052 (0) Zip engine: found/will use a binary zip: /usr/bin/zip
+0000.052 (0) Creation of backups of directories: beginning
+0000.054 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.112 (0) Total entities for the zip file: 756 directories, 5108 files (0 skipped as non-modified), 104.5 MB
+0000.113 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 100 files added (on-disk size: 0 KB)
+0000.114 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 200 files added (on-disk size: 0 KB)
+0000.115 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 300 files added (on-disk size: 0 KB)
+0000.116 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 400 files added (on-disk size: 0 KB)
+0000.118 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 500 files added (on-disk size: 0 KB)
+0000.119 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 600 files added (on-disk size: 0 KB)
+0000.120 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 700 files added (on-disk size: 0 KB)
+0000.121 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 800 files added (on-disk size: 0 KB)
+0000.122 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 900 files added (on-disk size: 0 KB)
+0000.123 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1000 files added (on-disk size: 0 KB)
+0000.123 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (9.4 MB, 5108 files batched, 1001 (1001) added so far); re-opening (prior size: 0 KB)
+0000.394 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: size is now: 3.60 MB
+0000.396 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1100 files added (on-disk size: 3664.6 KB)
+0000.398 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1200 files added (on-disk size: 3664.6 KB)
+0000.399 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1300 files added (on-disk size: 3664.6 KB)
+0000.400 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1400 files added (on-disk size: 3664.6 KB)
+0000.401 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1500 files added (on-disk size: 3664.6 KB)
+0000.402 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1600 files added (on-disk size: 3664.6 KB)
+0000.403 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1700 files added (on-disk size: 3664.6 KB)
+0000.404 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1800 files added (on-disk size: 3664.6 KB)
+0000.405 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 1900 files added (on-disk size: 3664.6 KB)
+0000.406 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2000 files added (on-disk size: 3664.6 KB)
+0000.407 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (22.9 MB, 5108 files batched, 1001 (2002) added so far); re-opening (prior size: 3664.6 KB)
+0001.110 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: size is now: 12.00 MB
+0001.113 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2100 files added (on-disk size: 12301 KB)
+0001.114 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2200 files added (on-disk size: 12301 KB)
+0001.115 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2300 files added (on-disk size: 12301 KB)
+0001.117 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2400 files added (on-disk size: 12301 KB)
+0001.117 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 25 MB added on this batch (25 MB, 5108 files batched, 401 (2403) added so far); re-opening (prior size: 12301 KB)
+0002.068 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: size is now: 25.80 MB
+0002.070 (0) A useful amount of data was added after this amount of zip processing: 1.7 s (normalised: 1.7 s, rate: 15140 KB/s)
+0002.070 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.6935260295868, normalised_time=1.6908855689373, max_time=2.0697679519653, data points known=1, old_max_bytes=26214400, new_max_bytes=93020132)
+0002.072 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2500 files added (on-disk size: 26461.9 KB)
+0002.073 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2600 files added (on-disk size: 26461.9 KB)
+0002.074 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2700 files added (on-disk size: 26461.9 KB)
+0002.075 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2800 files added (on-disk size: 26461.9 KB)
+0002.076 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 2900 files added (on-disk size: 26461.9 KB)
+0002.077 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3000 files added (on-disk size: 26461.9 KB)
+0002.078 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3100 files added (on-disk size: 26461.9 KB)
+0002.079 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3200 files added (on-disk size: 26461.9 KB)
+0002.080 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3300 files added (on-disk size: 26461.9 KB)
+0002.081 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3400 files added (on-disk size: 26461.9 KB)
+0002.081 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (26.5 MB, 5108 files batched, 1001 (3404) added so far); re-opening (prior size: 26461.9 KB)
+0003.023 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: size is now: 33.90 MB
+0003.025 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3500 files added (on-disk size: 34726.2 KB)
+0003.027 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3600 files added (on-disk size: 34726.2 KB)
+0003.028 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3700 files added (on-disk size: 34726.2 KB)
+0003.029 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3800 files added (on-disk size: 34726.2 KB)
+0003.030 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 3900 files added (on-disk size: 34726.2 KB)
+0003.031 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4000 files added (on-disk size: 34726.2 KB)
+0003.032 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4100 files added (on-disk size: 34726.2 KB)
+0003.033 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4200 files added (on-disk size: 34726.2 KB)
+0003.034 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4300 files added (on-disk size: 34726.2 KB)
+0003.035 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4400 files added (on-disk size: 34726.2 KB)
+0003.035 (0) Adding batch to zip file (UpdraftPlus_BinZip): over 1000 files added on this batch (6.1 MB, 5108 files batched, 1001 (4405) added so far); re-opening (prior size: 34726.2 KB)
+0003.284 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4500 files added (on-disk size: 36800.9 KB)
+0003.286 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4600 files added (on-disk size: 36800.9 KB)
+0003.287 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4700 files added (on-disk size: 36800.9 KB)
+0003.288 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4800 files added (on-disk size: 36800.9 KB)
+0003.289 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 4900 files added (on-disk size: 36800.9 KB)
+0003.290 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 5000 files added (on-disk size: 36800.9 KB)
+0003.291 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.tmp: 5100 files added (on-disk size: 36800.9 KB)
+0004.082 (0) Creating zip file manifest (/home/xs127027/hinataoyama.org/public_html/wp-content/updraft/backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.list-temp.tmp)
+0004.087 (0) Successfully created zip file manifest (size: 435644)
+0004.402 (0) Created plugins zip (0) - 42569.3 KB in 4.3 s (9792.4 KB/s) (sha1: 44500d319afd2edf49a3042b8735f758a1a85fbd, sha256: 59cf6bd4be32ed37ed31ec7c8d639d825fbf8c0dd275775e626c8e817a6b943c)
+0004.403 (0) Beginning creation of dump of themes (split every: 400 MB)
+0004.409 (0) Total entities for the zip file: 80 directories, 443 files (0 skipped as non-modified), 15.4 MB
+0004.410 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.411 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.412 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0004.413 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0004.692 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.tmp: size is now: 13.40 MB
+0004.697 (0) Creating zip file manifest (/home/xs127027/hinataoyama.org/public_html/wp-content/updraft/backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.list-temp.tmp)
+0004.698 (0) Successfully created zip file manifest (size: 29212)
+0004.792 (0) Created themes zip (0) - 13730.5 KB in 0.4 s (35333.1 KB/s) (sha1: 9b0a65422e55136ecc04770eacecf6b746c89786, sha256: a99f2c404a6dcb9ee6fc41559c52299ad60b1069daf76b78d76eed7634e94f4d)
+0004.793 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0004.794 (0) Looking for candidates to backup in: /home/xs127027/hinataoyama.org/public_html/wp-content/uploads
+0004.794 (0) finding files: 2022: adding to list (1)
+0004.794 (0) finding files: wordpress-popular-posts: adding to list (2)
+0004.794 (0) finding files: wpcf7_uploads: adding to list (3)
+0004.795 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0004.797 (0) Total entities for the zip file: 5 directories, 142 files (0 skipped as non-modified), 6 MB
+0004.798 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.846 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip.tmp: size is now: 6.00 MB
+0004.848 (0) Creating zip file manifest (/home/xs127027/hinataoyama.org/public_html/wp-content/updraft/backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip.list-temp.tmp)
+0004.849 (0) Successfully created zip file manifest (size: 7907)
+0004.892 (0) Created uploads zip (0) - 6163.9 KB in 0.1 s (63900.7 KB/s) (sha1: cd1f5cba79e942603266d79e3a7f537a7b0337aa, sha256: 2c59386cc9b80fc3269b8a02c40f30f1594fef522e7efaa36cd731ff3297767d)
+0004.893 (0) Beginning backup of other directories found in the content directory (index: 0)
+0004.893 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0004.893 (0) Looking for candidates to backup in: /home/xs127027/hinataoyama.org/public_html/wp-content
+0004.894 (0) finding files: plugins: skipping: this is the plugins directory
+0004.894 (0) finding files: themes: skipping: this is the themes directory
+0004.894 (0) finding files: languages: adding to list (1)
+0004.895 (0) finding files: index.php: adding to list (2)
+0004.895 (0) finding files: uploads: skipping: this is the uploads directory
+0004.895 (0) finding files: upgrade: skipping: excluded by options
+0004.895 (0) finding files: ai1wm-backups: skipping: excluded by options (glob)
+0004.896 (0) finding files: autoptimize_404_handler.php: adding to list (3)
+0004.896 (0) finding files: cache: skipping: excluded by options
+0004.896 (0) finding files: wp-cache-config.php: adding to list (4)
+0004.896 (0) finding files: ewww: adding to list (5)
+0004.897 (0) finding files: advanced-cache.php: adding to list (6)
+0004.897 (0) finding files: updraft: skipping: this is the updraft directory
+0004.897 (0) finding files: wflogs: adding to list (7)
+0004.902 (0) Total entities for the zip file: 6 directories, 324 files (0 skipped as non-modified), 17.8 MB
+0004.903 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0004.903 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0004.904 (0) Zip: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0005.855 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.tmp: size is now: 7.40 MB
+0005.859 (0) Creating zip file manifest (/home/xs127027/hinataoyama.org/public_html/wp-content/updraft/backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.list-temp.tmp)
+0005.860 (0) Successfully created zip file manifest (size: 23326)
+0005.913 (0) Created others zip (0) - 7600.9 KB in 1 s (7485.5 KB/s) (sha1: e594ad9091eff8e7ce8f4e0c181d1da58754d205, sha256: c34159f713be3bb92902ee3b265c87502df4e50967dabc57080f6ec6324ac495)
+0005.915 (0) Saving backup status to database (elements: 8)
+0005.916 (0) Beginning creation of database dump (WordPress DB)
+0005.917 (0) Couldn't get the sql_mode value (N;); will not attempt any adjustment
+0005.918 (0) Testing potential mysqldump binary: /usr/bin/mysqldump
+0006.040 (0) Output: /*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;\n/*!40103 SET TIME_ZONE='+00:00' */;\n/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;\n/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;\n/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;\n/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;\nDROP TABLE IF EXISTS `wp_options`;\n/*!40101 SET @saved_cs_client     = @@character_set_client */;\n/*!40101 SET character_set_client = utf8 */;\nCRE (truncated - 1523 bytes total)
+0006.041 (0) Working binary mysqldump found: /usr/bin/mysqldump
+0006.047 (0) Table wp_options: Total expected rows (via COUNT): 376
+0006.048 (0) Table is relatively small; fetch_rows will thus be: 500 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.060 (0) Table wp_options: Rows added in this batch (next record: 1524): 372 (uncompressed bytes in this segment=383932) in 0.02 seconds
+0006.062 (0) Table wp_options: finishing file(s) (2, 62.8 KB)
+0006.064 (0) Table wp_users: Total expected rows (via COUNT): 1
+0006.064 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.065 (0) Table wp_users: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=1352) in 0.00 seconds
+0006.067 (0) Table wp_users: finishing file(s) (2, 0.6 KB)
+0006.069 (0) Table wp_usermeta: Total expected rows (via COUNT): 28
+0006.070 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.071 (0) Table wp_usermeta: Rows added in this batch (next record: 29): 28 (uncompressed bytes in this segment=2873) in 0.00 seconds
+0006.072 (0) Table wp_usermeta: finishing file(s) (2, 1.3 KB)
+0006.074 (0) Table wp_actionscheduler_actions: Total expected rows (via COUNT): 9
+0006.075 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.076 (0) Table wp_actionscheduler_actions: Rows added in this batch (next record: 63): 9 (uncompressed bytes in this segment=4377) in 0.00 seconds
+0006.077 (0) Table wp_actionscheduler_actions: finishing file(s) (2, 1 KB)
+0006.079 (0) Table wp_actionscheduler_claims: Total expected rows (via COUNT): 0
+0006.080 (0) Table wp_actionscheduler_claims: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=630) in 0.00 seconds
+0006.081 (0) Table wp_actionscheduler_claims: finishing file(s) (2, 0.4 KB)
+0006.083 (0) Table wp_actionscheduler_groups: Total expected rows (via COUNT): 2
+0006.083 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.084 (0) Table wp_actionscheduler_groups: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=697) in 0.00 seconds
+0006.085 (0) Table wp_actionscheduler_groups: finishing file(s) (2, 0.4 KB)
+0006.086 (0) Table wp_actionscheduler_logs: Total expected rows (via COUNT): 25
+0006.087 (0) Table is relatively small; fetch_rows will thus be: 50 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.088 (0) Table wp_actionscheduler_logs: Rows added in this batch (next record: 29): 25 (uncompressed bytes in this segment=2914) in 0.00 seconds
+0006.090 (0) Table wp_actionscheduler_logs: finishing file(s) (2, 0.7 KB)
+0006.092 (0) Table wp_commentmeta: Total expected rows (via COUNT): 0
+0006.093 (0) Table wp_commentmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=684) in 0.00 seconds
+0006.094 (0) Table wp_commentmeta: finishing file(s) (2, 0.4 KB)
+0006.096 (0) Table wp_comments: Total expected rows (via COUNT): 1
+0006.096 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.097 (0) Table wp_comments: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=2104) in 0.00 seconds
+0006.099 (0) Table wp_comments: finishing file(s) (2, 0.8 KB)
+0006.100 (0) Table wp_links: Total expected rows (via COUNT): 0
+0006.101 (0) Table wp_links: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1266) in 0.00 seconds
+0006.103 (0) Table wp_links: finishing file(s) (2, 0.5 KB)
+0006.104 (0) Table wp_postmeta: Total expected rows (via COUNT): 163
+0006.105 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.106 (0) Table wp_postmeta: Rows added in this batch (next record: 170): 163 (uncompressed bytes in this segment=24934) in 0.00 seconds
+0006.108 (0) Table wp_postmeta: finishing file(s) (2, 4.2 KB)
+0006.111 (0) Table wp_posts: Total expected rows (via COUNT): 74
+0006.111 (0) Table is relatively small; fetch_rows will thus be: 100 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.117 (0) Table wp_posts: Rows added in this batch (next record: 83): 74 (uncompressed bytes in this segment=278251) in 0.01 seconds
+0006.119 (0) Table wp_posts: finishing file(s) (2, 17 KB)
+0006.120 (0) Table wp_term_relationships: Total expected rows (approximate): 25
+0006.121 (0) Table wp_term_relationships: Rows added in this batch (next record: 100000): 25 (uncompressed bytes in this segment=1007) in 0.00 seconds
+0006.123 (0) Table wp_term_relationships: finishing file(s) (2, 0.5 KB)
+0006.125 (0) Table wp_term_taxonomy: Total expected rows (via COUNT): 18
+0006.125 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.126 (0) Table wp_term_taxonomy: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1455) in 0.00 seconds
+0006.128 (0) Table wp_term_taxonomy: finishing file(s) (2, 0.6 KB)
+0006.130 (0) Table wp_termmeta: Total expected rows (via COUNT): 0
+0006.131 (0) Table wp_termmeta: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=657) in 0.00 seconds
+0006.133 (0) Table wp_termmeta: finishing file(s) (2, 0.4 KB)
+0006.134 (0) Table wp_terms: Total expected rows (via COUNT): 18
+0006.134 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.135 (0) Table wp_terms: Rows added in this batch (next record: 18): 18 (uncompressed bytes in this segment=1532) in 0.00 seconds
+0006.137 (0) Table wp_terms: finishing file(s) (2, 0.8 KB)
+0006.139 (0) Table wp_aioseo_cache: Total expected rows (via COUNT): 12
+0006.139 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.141 (0) Table wp_aioseo_cache: Rows added in this batch (next record: 23): 12 (uncompressed bytes in this segment=77274) in 0.00 seconds
+0006.143 (0) Table wp_aioseo_cache: finishing file(s) (2, 14.7 KB)
+0006.145 (0) Table wp_aioseo_notifications: Total expected rows (via COUNT): 0
+0006.146 (0) Table wp_aioseo_notifications: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=1612) in 0.00 seconds
+0006.148 (0) Table wp_aioseo_notifications: finishing file(s) (2, 0.5 KB)
+0006.150 (0) Table wp_aioseo_posts: Total expected rows (via COUNT): 1
+0006.150 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.152 (0) Table wp_aioseo_posts: Rows added in this batch (next record: 1): 1 (uncompressed bytes in this segment=9087) in 0.00 seconds
+0006.153 (0) Table wp_aioseo_posts: finishing file(s) (2, 2.3 KB)
+0006.155 (0) Table wp_blc_filters: Total expected rows (via COUNT): 0
+0006.156 (0) Table wp_blc_filters: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=525) in 0.00 seconds
+0006.157 (0) Table wp_blc_filters: finishing file(s) (2, 0.3 KB)
+0006.158 (0) Table wp_blc_instances: Total expected rows (via COUNT): 4
+0006.158 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.159 (0) Table wp_blc_instances: Rows added in this batch (next record: 18): 4 (uncompressed bytes in this segment=1670) in 0.00 seconds
+0006.161 (0) Table wp_blc_instances: finishing file(s) (2, 0.6 KB)
+0006.162 (0) Table wp_blc_links: Total expected rows (via COUNT): 4
+0006.162 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.163 (0) Table wp_blc_links: Rows added in this batch (next record: 6): 4 (uncompressed bytes in this segment=8982) in 0.00 seconds
+0006.164 (0) Table wp_blc_links: finishing file(s) (2, 1.9 KB)
+0006.166 (0) Table wp_blc_synch: Total expected rows (approximate): 4
+0006.167 (0) Table wp_blc_synch: Rows added in this batch (next record: 1000): 4 (uncompressed bytes in this segment=823) in 0.00 seconds
+0006.168 (0) Table wp_blc_synch: finishing file(s) (2, 0.5 KB)
+0006.169 (0) Table wp_ewwwio_images: Total expected rows (via COUNT): 116
+0006.170 (0) Table is relatively small; fetch_rows will thus be: 200 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.172 (0) Table wp_ewwwio_images: Rows added in this batch (next record: 116): 116 (uncompressed bytes in this segment=21787) in 0.00 seconds
+0006.173 (0) Table wp_ewwwio_images: finishing file(s) (2, 3.5 KB)
+0006.175 (0) Table wp_ewwwio_queue: Total expected rows (via COUNT): 0
+0006.175 (0) Table wp_ewwwio_queue: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=635) in 0.00 seconds
+0006.177 (0) Table wp_ewwwio_queue: finishing file(s) (2, 0.4 KB)
+0006.178 (0) Table wp_popularpostsdata: Total expected rows (via COUNT): 7
+0006.178 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.180 (0) Table wp_popularpostsdata: Rows added in this batch (next record: 56): 7 (uncompressed bytes in this segment=965) in 0.00 seconds
+0006.181 (0) Table wp_popularpostsdata: finishing file(s) (2, 0.5 KB)
+0006.182 (0) Table wp_popularpostssummary: Total expected rows (via COUNT): 142
+0006.183 (0) Table is relatively small; fetch_rows will thus be: 250 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.185 (0) Table wp_popularpostssummary: Rows added in this batch (next record: 142): 142 (uncompressed bytes in this segment=8024) in 0.00 seconds
+0006.186 (0) Table wp_popularpostssummary: finishing file(s) (2, 1.5 KB)
+0006.188 (0) Table wp_popularpoststransients: Total expected rows (via COUNT): 0
+0006.188 (0) Table wp_popularpoststransients: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=565) in 0.00 seconds
+0006.190 (0) Table wp_popularpoststransients: finishing file(s) (2, 0.3 KB)
+0006.191 (0) Table wp_siteguard_history: Total expected rows (via COUNT): 2
+0006.191 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.192 (0) Table wp_siteguard_history: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=814) in 0.00 seconds
+0006.194 (0) Table wp_siteguard_history: finishing file(s) (2, 0.4 KB)
+0006.195 (0) Table wp_siteguard_login: Total expected rows (approximate): 0
+0006.196 (0) Table wp_siteguard_login: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=634) in 0.00 seconds
+0006.197 (0) Table wp_siteguard_login: finishing file(s) (2, 0.4 KB)
+0006.198 (0) Table wp_wfblockediplog: Total expected rows (approximate): 0
+0006.199 (0) Table wp_wfblockediplog: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=627) in 0.00 seconds
+0006.201 (0) Table wp_wfblockediplog: finishing file(s) (2, 0.4 KB)
+0006.203 (0) Table wp_wfblocks7: Total expected rows (via COUNT): 0
+0006.203 (0) Table wp_wfblocks7: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=816) in 0.00 seconds
+0006.204 (0) Table wp_wfblocks7: finishing file(s) (2, 0.4 KB)
+0006.206 (0) Table wp_wfconfig: Total expected rows (approximate): 223
+0006.207 (0) Table wp_wfconfig: Rows added in this batch (next record: 1000): 227 (uncompressed bytes in this segment=26286) in 0.00 seconds
+0006.209 (0) Table wp_wfconfig: finishing file(s) (2, 5.6 KB)
+0006.210 (0) Table wp_wfcrawlers: Total expected rows (approximate): 6
+0006.211 (0) Table wp_wfcrawlers: Rows added in this batch (next record: 1000): 6 (uncompressed bytes in this segment=1433) in 0.00 seconds
+0006.212 (0) Table wp_wfcrawlers: finishing file(s) (2, 0.5 KB)
+0006.214 (0) Table wp_wffilechanges: Total expected rows (approximate): 0
+0006.214 (0) Table wp_wffilechanges: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=452) in 0.00 seconds
+0006.215 (0) Table wp_wffilechanges: finishing file(s) (2, 0.3 KB)
+0006.217 (0) Table wp_wffilemods: Total expected rows (approximate): 0
+0006.217 (0) Table wp_wffilemods: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=788) in 0.00 seconds
+0006.219 (0) Table wp_wffilemods: finishing file(s) (2, 0.4 KB)
+0006.220 (0) Table wp_wfhits: Total expected rows (via COUNT): 2
+0006.220 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.222 (0) Table wp_wfhits: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1747) in 0.00 seconds
+0006.223 (0) Table wp_wfhits: finishing file(s) (2, 0.8 KB)
+0006.224 (0) Table wp_wfhoover: Total expected rows (via COUNT): 0
+0006.225 (0) Table wp_wfhoover: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=515) in 0.00 seconds
+0006.227 (0) Table wp_wfhoover: finishing file(s) (2, 0.3 KB)
+0006.228 (0) Table wp_wfissues: Total expected rows (via COUNT): 0
+0006.229 (0) Table wp_wfissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=830) in 0.00 seconds
+0006.230 (0) Table wp_wfissues: finishing file(s) (2, 0.4 KB)
+0006.232 (0) Table wp_wfknownfilelist: Total expected rows (via COUNT): 0
+0006.232 (0) Table wp_wfknownfilelist: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=431) in 0.00 seconds
+0006.233 (0) Table wp_wfknownfilelist: finishing file(s) (2, 0.3 KB)
+0006.235 (0) Table wp_wflivetraffichuman: Total expected rows (approximate): 0
+0006.235 (0) Table wp_wflivetraffichuman: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=648) in 0.00 seconds
+0006.236 (0) Table wp_wflivetraffichuman: finishing file(s) (2, 0.3 KB)
+0006.238 (0) Table wp_wflocs: Total expected rows (approximate): 0
+0006.239 (0) Table wp_wflocs: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=825) in 0.00 seconds
+0006.240 (0) Table wp_wflocs: finishing file(s) (2, 0.5 KB)
+0006.242 (0) Table wp_wflogins: Total expected rows (via COUNT): 2
+0006.242 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.243 (0) Table wp_wflogins: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=1181) in 0.00 seconds
+0006.244 (0) Table wp_wflogins: finishing file(s) (2, 0.6 KB)
+0006.246 (0) Table wp_wfls_2fa_secrets: Total expected rows (via COUNT): 0
+0006.247 (0) Table wp_wfls_2fa_secrets: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=681) in 0.00 seconds
+0006.248 (0) Table wp_wfls_2fa_secrets: finishing file(s) (2, 0.4 KB)
+0006.250 (0) Table wp_wfls_settings: Total expected rows (approximate): 23
+0006.250 (0) Table wp_wfls_settings: Rows added in this batch (next record: 1000): 23 (uncompressed bytes in this segment=1770) in 0.00 seconds
+0006.252 (0) Table wp_wfls_settings: finishing file(s) (2, 0.8 KB)
+0006.253 (0) Table wp_wfnotifications: Total expected rows (approximate): 1
+0006.254 (0) Table wp_wfnotifications: Rows added in this batch (next record: 1000): 1 (uncompressed bytes in this segment=819) in 0.00 seconds
+0006.255 (0) Table wp_wfnotifications: finishing file(s) (2, 0.5 KB)
+0006.257 (0) Table wp_wfpendingissues: Total expected rows (via COUNT): 0
+0006.258 (0) Table wp_wfpendingissues: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=872) in 0.00 seconds
+0006.259 (0) Table wp_wfpendingissues: finishing file(s) (2, 0.4 KB)
+0006.260 (0) Table wp_wfreversecache: Total expected rows (approximate): 7
+0006.261 (0) Table wp_wfreversecache: Rows added in this batch (next record: 1000): 7 (uncompressed bytes in this segment=1170) in 0.00 seconds
+0006.262 (0) Table wp_wfreversecache: finishing file(s) (2, 0.5 KB)
+0006.264 (0) Table wp_wfsnipcache: Total expected rows (via COUNT): 0
+0006.265 (0) Table wp_wfsnipcache: Rows added in this batch (next record: -1): 0 (uncompressed bytes in this segment=716) in 0.00 seconds
+0006.266 (0) Table wp_wfsnipcache: finishing file(s) (2, 0.4 KB)
+0006.267 (0) Table wp_wfstatus: Total expected rows (via COUNT): 2
+0006.268 (0) Table is relatively small; fetch_rows will thus be: 20 (allow_further_reductions=1, is_first_fetch=1, known_bigger_than_table=1)
+0006.269 (0) Table wp_wfstatus: Rows added in this batch (next record: 2): 2 (uncompressed bytes in this segment=774) in 0.00 seconds
+0006.270 (0) Table wp_wfstatus: finishing file(s) (2, 0.5 KB)
+0006.271 (0) Table wp_wftrafficrates: Total expected rows (approximate): 0
+0006.273 (0) Table wp_wftrafficrates: Rows added in this batch (next record: 0): 0 (uncompressed bytes in this segment=566) in 0.00 seconds
+0006.274 (0) Table wp_wftrafficrates: finishing file(s) (2, 0.3 KB)
+0006.274 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_options.table.tmpr1525.gz (1/51/fopen): adding to final database dump
+0006.275 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_options.table.gz (2/51/fopen): adding to final database dump
+0006.275 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_users.table.tmpr2.gz (3/51/fopen): adding to final database dump
+0006.276 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_users.table.gz (4/51/fopen): adding to final database dump
+0006.276 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_usermeta.table.tmpr30.gz (5/51/fopen): adding to final database dump
+0006.276 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_usermeta.table.gz (6/51/fopen): adding to final database dump
+0006.276 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_actions.table.tmpr64.gz (7/51/fopen): adding to final database dump
+0006.277 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_actions.table.gz (8/51/fopen): adding to final database dump
+0006.277 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_claims.table.tmpr0.gz (9/51/fopen): adding to final database dump
+0006.277 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_claims.table.gz (10/51/fopen): adding to final database dump
+0006.277 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_groups.table.tmpr3.gz (11/51/fopen): adding to final database dump
+0006.278 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_groups.table.gz (12/51/fopen): adding to final database dump
+0006.278 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_logs.table.tmpr30.gz (13/51/fopen): adding to final database dump
+0006.278 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_actionscheduler_logs.table.gz (14/51/fopen): adding to final database dump
+0006.279 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_commentmeta.table.tmpr0.gz (15/51/fopen): adding to final database dump
+0006.279 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_commentmeta.table.gz (16/51/fopen): adding to final database dump
+0006.279 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_comments.table.tmpr2.gz (17/51/fopen): adding to final database dump
+0006.279 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_comments.table.gz (18/51/fopen): adding to final database dump
+0006.280 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_links.table.tmpr0.gz (19/51/fopen): adding to final database dump
+0006.280 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_links.table.gz (20/51/fopen): adding to final database dump
+0006.280 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_postmeta.table.tmpr171.gz (21/51/fopen): adding to final database dump
+0006.281 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_postmeta.table.gz (22/51/fopen): adding to final database dump
+0006.281 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_posts.table.tmpr84.gz (23/51/fopen): adding to final database dump
+0006.281 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_posts.table.gz (24/51/fopen): adding to final database dump
+0006.282 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_term_relationships.table.tmpr100001.gz (25/51/fopen): adding to final database dump
+0006.282 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_term_relationships.table.gz (26/51/fopen): adding to final database dump
+0006.282 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_term_taxonomy.table.tmpr19.gz (27/51/fopen): adding to final database dump
+0006.282 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_term_taxonomy.table.gz (28/51/fopen): adding to final database dump
+0006.283 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_termmeta.table.tmpr0.gz (29/51/fopen): adding to final database dump
+0006.283 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_termmeta.table.gz (30/51/fopen): adding to final database dump
+0006.283 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_terms.table.tmpr19.gz (31/51/fopen): adding to final database dump
+0006.283 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_terms.table.gz (32/51/fopen): adding to final database dump
+0006.284 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_cache.table.tmpr24.gz (33/51/fopen): adding to final database dump
+0006.284 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_cache.table.gz (34/51/fopen): adding to final database dump
+0006.284 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_notifications.table.tmpr0.gz (35/51/fopen): adding to final database dump
+0006.285 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_notifications.table.gz (36/51/fopen): adding to final database dump
+0006.285 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_posts.table.tmpr2.gz (37/51/fopen): adding to final database dump
+0006.285 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_aioseo_posts.table.gz (38/51/fopen): adding to final database dump
+0006.286 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_filters.table.tmpr0.gz (39/51/fopen): adding to final database dump
+0006.286 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_filters.table.gz (40/51/fopen): adding to final database dump
+0006.286 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_instances.table.tmpr19.gz (41/51/fopen): adding to final database dump
+0006.286 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_instances.table.gz (42/51/fopen): adding to final database dump
+0006.287 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_links.table.tmpr7.gz (43/51/fopen): adding to final database dump
+0006.287 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_links.table.gz (44/51/fopen): adding to final database dump
+0006.287 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_synch.table.tmpr1001.gz (45/51/fopen): adding to final database dump
+0006.287 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_blc_synch.table.gz (46/51/fopen): adding to final database dump
+0006.288 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_ewwwio_images.table.tmpr117.gz (47/51/fopen): adding to final database dump
+0006.288 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_ewwwio_images.table.gz (48/51/fopen): adding to final database dump
+0006.288 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_ewwwio_queue.table.tmpr0.gz (49/51/fopen): adding to final database dump
+0006.289 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_ewwwio_queue.table.gz (50/51/fopen): adding to final database dump
+0006.289 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpostsdata.table.tmpr57.gz (51/51/fopen): adding to final database dump
+0006.289 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpostsdata.table.gz (52/51/fopen): adding to final database dump
+0006.289 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpostssummary.table.tmpr143.gz (53/51/fopen): adding to final database dump
+0006.290 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpostssummary.table.gz (54/51/fopen): adding to final database dump
+0006.290 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpoststransients.table.tmpr0.gz (55/51/fopen): adding to final database dump
+0006.290 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_popularpoststransients.table.gz (56/51/fopen): adding to final database dump
+0006.290 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_siteguard_history.table.tmpr3.gz (57/51/fopen): adding to final database dump
+0006.291 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_siteguard_history.table.gz (58/51/fopen): adding to final database dump
+0006.291 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_siteguard_login.table.tmpr1001.gz (59/51/fopen): adding to final database dump
+0006.291 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_siteguard_login.table.gz (60/51/fopen): adding to final database dump
+0006.291 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfblockediplog.table.tmpr1.gz (61/51/fopen): adding to final database dump
+0006.292 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfblockediplog.table.gz (62/51/fopen): adding to final database dump
+0006.292 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfblocks7.table.tmpr0.gz (63/51/fopen): adding to final database dump
+0006.292 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfblocks7.table.gz (64/51/fopen): adding to final database dump
+0006.293 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfconfig.table.tmpr1001.gz (65/51/fopen): adding to final database dump
+0006.293 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfconfig.table.gz (66/51/fopen): adding to final database dump
+0006.293 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfcrawlers.table.tmpr1001.gz (67/51/fopen): adding to final database dump
+0006.293 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfcrawlers.table.gz (68/51/fopen): adding to final database dump
+0006.294 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wffilechanges.table.tmpr1.gz (69/51/fopen): adding to final database dump
+0006.294 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wffilechanges.table.gz (70/51/fopen): adding to final database dump
+0006.294 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wffilemods.table.tmpr1.gz (71/51/fopen): adding to final database dump
+0006.294 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wffilemods.table.gz (72/51/fopen): adding to final database dump
+0006.295 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfhits.table.tmpr3.gz (73/51/fopen): adding to final database dump
+0006.295 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfhits.table.gz (74/51/fopen): adding to final database dump
+0006.295 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfhoover.table.tmpr0.gz (75/51/fopen): adding to final database dump
+0006.296 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfhoover.table.gz (76/51/fopen): adding to final database dump
+0006.296 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfissues.table.tmpr0.gz (77/51/fopen): adding to final database dump
+0006.296 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfissues.table.gz (78/51/fopen): adding to final database dump
+0006.296 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfknownfilelist.table.tmpr0.gz (79/51/fopen): adding to final database dump
+0006.297 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfknownfilelist.table.gz (80/51/fopen): adding to final database dump
+0006.297 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflivetraffichuman.table.tmpr1.gz (81/51/fopen): adding to final database dump
+0006.297 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflivetraffichuman.table.gz (82/51/fopen): adding to final database dump
+0006.297 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflocs.table.tmpr1001.gz (83/51/fopen): adding to final database dump
+0006.298 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflocs.table.gz (84/51/fopen): adding to final database dump
+0006.298 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflogins.table.tmpr3.gz (85/51/fopen): adding to final database dump
+0006.298 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wflogins.table.gz (86/51/fopen): adding to final database dump
+0006.299 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfls_2fa_secrets.table.tmpr0.gz (87/51/fopen): adding to final database dump
+0006.299 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfls_2fa_secrets.table.gz (88/51/fopen): adding to final database dump
+0006.299 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfls_settings.table.tmpr1001.gz (89/51/fopen): adding to final database dump
+0006.299 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfls_settings.table.gz (90/51/fopen): adding to final database dump
+0006.300 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfnotifications.table.tmpr1001.gz (91/51/fopen): adding to final database dump
+0006.300 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfnotifications.table.gz (92/51/fopen): adding to final database dump
+0006.300 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfpendingissues.table.tmpr0.gz (93/51/fopen): adding to final database dump
+0006.301 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfpendingissues.table.gz (94/51/fopen): adding to final database dump
+0006.301 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfreversecache.table.tmpr1001.gz (95/51/fopen): adding to final database dump
+0006.301 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfreversecache.table.gz (96/51/fopen): adding to final database dump
+0006.301 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfsnipcache.table.tmpr0.gz (97/51/fopen): adding to final database dump
+0006.302 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfsnipcache.table.gz (98/51/fopen): adding to final database dump
+0006.302 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfstatus.table.tmpr3.gz (99/51/fopen): adding to final database dump
+0006.303 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wfstatus.table.gz (100/51/fopen): adding to final database dump
+0006.303 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wftrafficrates.table.tmpr1.gz (101/51/fopen): adding to final database dump
+0006.303 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db-table-wp_wftrafficrates.table.gz (102/51/fopen): adding to final database dump
+0006.305 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz: finished writing out complete database file (134.1 KB)
+0006.309 (0) Total database tables backed up: 51 (backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz, size: 137480, sha1: 3e6948e71cdc0b730a1df5f9e6d1cfa25460c6d1, sha256: 55c68e27b6094ce4a03ef597e3bff832ed24fce096ea295bdb2b823e06b701bc)
+0006.311 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0006.312 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0006.312 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0006.312 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip: others: This file has not yet been successfully uploaded: will queue
+0006.312 (0) backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz: db: This file has not yet been successfully uploaded: will queue
+0006.313 (0) Saving backup history. Total backup size: 68.6 MB
+0006.314 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0006.315 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0006.315 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-d4d92a32ce5a301f084ccca3dd19a160)
+0008.864 (0) Google Drive: quota usage: used=106.2 MB, total=15360 MB, available=15253.8 MB
+0008.865 (0) Google Drive: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip: Attempting to upload to Google Drive (into folder id: 1Hoj865s9Oo9zXlDUgnWuL6tcAWfECddD)
+0009.945 (0) Googledrive chunked upload: 2.4 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.7 / 28)
+0010.490 (0) Googledrive chunked upload: 7.2 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.7 / 28)
+0011.007 (0) Googledrive chunked upload: 16.8 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.7 / 28)
+0011.792 (0) Googledrive chunked upload: 36.1 % uploaded (15728640 - increasing chunk size to 16384 KB - memory usage: 19.7 / 28)
+0012.634 (0) Googledrive chunked upload: 74.6 % uploaded (32505856 - increasing chunk size to 32768 KB - memory usage: 19.7 / 28)
+0014.699 (0) Googledrive chunked upload: 100 % uploaded (32505856)
+0014.700 (0) Google Drive: OK: Archive backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip uploaded in 5.83 seconds
+0014.701 (0) Recording as successfully uploaded: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip
+0014.705 (0) Deleting local file: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip: OK
+0014.705 (0) Deleting zip manifest (backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-plugins.zip.list.tmp)
+0015.033 (0) Google Drive: quota usage: used=147.7 MB, total=15360 MB, available=15212.3 MB
+0015.033 (0) Google Drive: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip: Attempting to upload to Google Drive (into folder id: 1Hoj865s9Oo9zXlDUgnWuL6tcAWfECddD)
+0016.033 (0) Googledrive chunked upload: 7.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.7 / 28)
+0016.557 (0) Googledrive chunked upload: 22.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.7 / 28)
+0017.109 (0) Googledrive chunked upload: 52.2 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.7 / 28)
+0018.865 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0018.867 (0) Google Drive: OK: Archive backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip uploaded in 3.83 seconds
+0018.867 (0) Recording as successfully uploaded: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip
+0018.869 (0) Deleting local file: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip: OK
+0018.869 (0) Deleting zip manifest (backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-themes.zip.list.tmp)
+0019.202 (0) Google Drive: quota usage: used=161.1 MB, total=15360 MB, available=15198.9 MB
+0019.202 (0) Google Drive: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip: Attempting to upload to Google Drive (into folder id: 1Hoj865s9Oo9zXlDUgnWuL6tcAWfECddD)
+0020.174 (0) Googledrive chunked upload: 16.6 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.7 / 28)
+0020.673 (0) Googledrive chunked upload: 49.8 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.7 / 28)
+0022.371 (0) Googledrive chunked upload: 100 % uploaded (3145728)
+0022.372 (0) Google Drive: OK: Archive backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip uploaded in 3.17 seconds
+0022.372 (0) Recording as successfully uploaded: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip
+0022.374 (0) Deleting local file: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip: OK
+0022.374 (0) Deleting zip manifest (backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-uploads.zip.list.tmp)
+0022.728 (0) Google Drive: quota usage: used=167.2 MB, total=15360 MB, available=15192.8 MB
+0022.729 (0) Google Drive: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip: Attempting to upload to Google Drive (into folder id: 1Hoj865s9Oo9zXlDUgnWuL6tcAWfECddD)
+0023.631 (0) Googledrive chunked upload: 13.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 19.7 / 28)
+0024.142 (0) Googledrive chunked upload: 40.4 % uploaded (3145728 - increasing chunk size to 4096 KB - memory usage: 19.7 / 28)
+0024.679 (0) Googledrive chunked upload: 94.3 % uploaded (7340032 - increasing chunk size to 8192 KB - memory usage: 19.7 / 28)
+0026.162 (0) Googledrive chunked upload: 100 % uploaded (7340032)
+0026.163 (0) Google Drive: OK: Archive backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip uploaded in 3.43 seconds
+0026.163 (0) Recording as successfully uploaded: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip
+0026.165 (0) Deleting local file: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip: OK
+0026.165 (0) Deleting zip manifest (backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-others.zip.list.tmp)
+0026.710 (0) Google Drive: quota usage: used=174.6 MB, total=15360 MB, available=15185.4 MB
+0026.711 (0) Google Drive: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz: Attempting to upload to Google Drive (into folder id: 1Hoj865s9Oo9zXlDUgnWuL6tcAWfECddD)
+0028.539 (0) Googledrive chunked upload: 100 % uploaded
+0028.541 (0) Google Drive: OK: Archive backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz uploaded in 1.83 seconds
+0028.541 (0) Recording as successfully uploaded: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz
+0028.542 (0) Deleting local file: backup_2022-03-26-0546_hinata_blog_8def6dcd5d9b-db.gz: OK
+0028.544 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=7, retain_db=7
+0028.544 (0) Number of backup sets in history: 3; groups (db): 1
+0028.545 (0) Examining (for databases) backup set with group_id=0, nonce=8def6dcd5d9b, datestamp=1648273571 (Mar 26 2022 05:46:11)
+0028.545 (0) This backup set is the backup set just made, so will not be deleted.
+0028.545 (0) Examining (for databases) backup set with group_id=0, nonce=8f8d3816e6a9, datestamp=1648187134 (Mar 25 2022 05:45:34)
+0028.545 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.545 (0) Examining (for databases) backup set with group_id=0, nonce=bc5b8c955ee1, datestamp=1648186761 (Mar 25 2022 05:39:21)
+0028.545 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.546 (0) Number of backup sets in history: 3; groups (files): 1
+0028.546 (0) Examining (for files) backup set with nonce=8def6dcd5d9b, datestamp=1648273571 (Mar 26 2022 05:46:11)
+0028.546 (0) This backup set is the backup set just made, so will not be deleted.
+0028.546 (0) This backup set is the backup set just made, so will not be deleted.
+0028.546 (0) This backup set is the backup set just made, so will not be deleted.
+0028.546 (0) This backup set is the backup set just made, so will not be deleted.
+0028.546 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.547 (0) Examining (for files) backup set with nonce=8f8d3816e6a9, datestamp=1648187134 (Mar 25 2022 05:45:34)
+0028.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.547 (0) Examining (for files) backup set with nonce=bc5b8c955ee1, datestamp=1648186761 (Mar 25 2022 05:39:21)
+0028.547 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0028.547 (0) Retain: saving new backup history (sets now: 3) and finishing retain operation
+0028.548 (0) Resume backup (8def6dcd5d9b, 0): finish run
+0028.549 (0) Decremented the semaphore (fd) by 1
+0028.549 (0) Semaphore (fd) unlocked
+0028.549 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0028.551 (0) The backup apparently succeeded and is now complete
+0028.552 (0) No email will/can be sent - the user has not configured an email address.
+0028.552 (0) バックアップは成功し完了しました。
